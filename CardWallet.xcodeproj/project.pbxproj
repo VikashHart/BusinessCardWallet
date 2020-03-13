@@ -36,7 +36,6 @@
 		A199A392241C1399000DBB34 /* CardWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A199A396241C1399000DBB34 /* CardWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWalletTests.swift; sourceTree = "<group>"; };
 		A199A398241C1399000DBB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A199A3A2241C1EF2000DBB34 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +77,11 @@
 		A199A37E241C1396000DBB34 /* CardWallet */ = {
 			isa = PBXGroup;
 			children = (
-				A199A3A2241C1EF2000DBB34 /* README.md */,
-				A199A3A1241C1E9C000DBB34 /* Supporting Files */,
+				A199A37F241C1396000DBB34 /* AppDelegate.swift */,
+				A199A385241C1396000DBB34 /* Main.storyboard */,
+				A199A388241C1399000DBB34 /* Assets.xcassets */,
+				A199A38A241C1399000DBB34 /* LaunchScreen.storyboard */,
+				A199A38D241C1399000DBB34 /* Info.plist */,
 				A199A383241C1396000DBB34 /* ViewController.swift */,
 			);
 			path = CardWallet;
@@ -92,18 +94,6 @@
 				A199A398241C1399000DBB34 /* Info.plist */,
 			);
 			path = CardWalletTests;
-			sourceTree = "<group>";
-		};
-		A199A3A1241C1E9C000DBB34 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A199A37F241C1396000DBB34 /* AppDelegate.swift */,
-				A199A385241C1396000DBB34 /* Main.storyboard */,
-				A199A388241C1399000DBB34 /* Assets.xcassets */,
-				A199A38A241C1399000DBB34 /* LaunchScreen.storyboard */,
-				A199A38D241C1399000DBB34 /* Info.plist */,
-			);
-			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
