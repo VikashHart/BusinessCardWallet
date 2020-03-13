@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A199A380241C1396000DBB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199A37F241C1396000DBB34 /* AppDelegate.swift */; };
-		A199A382241C1396000DBB34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199A381241C1396000DBB34 /* SceneDelegate.swift */; };
 		A199A384241C1396000DBB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199A383241C1396000DBB34 /* ViewController.swift */; };
 		A199A387241C1396000DBB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A199A385241C1396000DBB34 /* Main.storyboard */; };
 		A199A389241C1399000DBB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A199A388241C1399000DBB34 /* Assets.xcassets */; };
@@ -27,9 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A199A37C241C1396000DBB34 /* CardWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A199A37C241C1396000DBB34 /* Clout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A199A37F241C1396000DBB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A199A381241C1396000DBB34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A199A383241C1396000DBB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A199A386241C1396000DBB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A199A388241C1399000DBB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +36,7 @@
 		A199A392241C1399000DBB34 /* CardWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A199A396241C1399000DBB34 /* CardWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWalletTests.swift; sourceTree = "<group>"; };
 		A199A398241C1399000DBB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A199A3A2241C1EF2000DBB34 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +69,7 @@
 		A199A37D241C1396000DBB34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A199A37C241C1396000DBB34 /* CardWallet.app */,
+				A199A37C241C1396000DBB34 /* Clout.app */,
 				A199A392241C1399000DBB34 /* CardWalletTests.xctest */,
 			);
 			name = Products;
@@ -79,13 +78,9 @@
 		A199A37E241C1396000DBB34 /* CardWallet */ = {
 			isa = PBXGroup;
 			children = (
-				A199A37F241C1396000DBB34 /* AppDelegate.swift */,
-				A199A381241C1396000DBB34 /* SceneDelegate.swift */,
+				A199A3A2241C1EF2000DBB34 /* README.md */,
+				A199A3A1241C1E9C000DBB34 /* Supporting Files */,
 				A199A383241C1396000DBB34 /* ViewController.swift */,
-				A199A385241C1396000DBB34 /* Main.storyboard */,
-				A199A388241C1399000DBB34 /* Assets.xcassets */,
-				A199A38A241C1399000DBB34 /* LaunchScreen.storyboard */,
-				A199A38D241C1399000DBB34 /* Info.plist */,
 			);
 			path = CardWallet;
 			sourceTree = "<group>";
@@ -97,6 +92,18 @@
 				A199A398241C1399000DBB34 /* Info.plist */,
 			);
 			path = CardWalletTests;
+			sourceTree = "<group>";
+		};
+		A199A3A1241C1E9C000DBB34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A199A37F241C1396000DBB34 /* AppDelegate.swift */,
+				A199A385241C1396000DBB34 /* Main.storyboard */,
+				A199A388241C1399000DBB34 /* Assets.xcassets */,
+				A199A38A241C1399000DBB34 /* LaunchScreen.storyboard */,
+				A199A38D241C1399000DBB34 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,7 +123,7 @@
 			);
 			name = CardWallet;
 			productName = CardWallet;
-			productReference = A199A37C241C1396000DBB34 /* CardWallet.app */;
+			productReference = A199A37C241C1396000DBB34 /* Clout.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A199A391241C1399000DBB34 /* CardWalletTests */ = {
@@ -202,7 +209,6 @@
 			files = (
 				A199A384241C1396000DBB34 /* ViewController.swift in Sources */,
 				A199A380241C1396000DBB34 /* AppDelegate.swift in Sources */,
-				A199A382241C1396000DBB34 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,14 +371,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63X7US2LVV;
 				INFOPLIST_FILE = CardWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = VikashHart.CardWallet;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Clout;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -383,14 +390,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63X7US2LVV;
 				INFOPLIST_FILE = CardWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = VikashHart.CardWallet;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Clout;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
