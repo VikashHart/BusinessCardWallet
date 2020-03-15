@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A199A380241C1396000DBB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199A37F241C1396000DBB34 /* AppDelegate.swift */; };
-		A199A384241C1396000DBB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199A383241C1396000DBB34 /* ViewController.swift */; };
+		A199A384241C1396000DBB34 /* CollectedCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199A383241C1396000DBB34 /* CollectedCardsViewController.swift */; };
 		A199A387241C1396000DBB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A199A385241C1396000DBB34 /* Main.storyboard */; };
 		A199A389241C1399000DBB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A199A388241C1399000DBB34 /* Assets.xcassets */; };
 		A199A38C241C1399000DBB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A199A38A241C1399000DBB34 /* LaunchScreen.storyboard */; };
 		A199A397241C1399000DBB34 /* CardWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199A396241C1399000DBB34 /* CardWalletTests.swift */; };
+		A199A3A8241D6647000DBB34 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199A3A7241D6647000DBB34 /* MainCoordinator.swift */; };
+		A199A3AA241D668C000DBB34 /* CoordinatorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199A3A9241D668C000DBB34 /* CoordinatorInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,7 @@
 /* Begin PBXFileReference section */
 		A199A37C241C1396000DBB34 /* Clout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A199A37F241C1396000DBB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A199A383241C1396000DBB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A199A383241C1396000DBB34 /* CollectedCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectedCardsViewController.swift; sourceTree = "<group>"; };
 		A199A386241C1396000DBB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A199A388241C1399000DBB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A199A38B241C1399000DBB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		A199A392241C1399000DBB34 /* CardWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A199A396241C1399000DBB34 /* CardWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWalletTests.swift; sourceTree = "<group>"; };
 		A199A398241C1399000DBB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A199A3A7241D6647000DBB34 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		A199A3A9241D668C000DBB34 /* CoordinatorInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,12 @@
 			isa = PBXGroup;
 			children = (
 				A199A37F241C1396000DBB34 /* AppDelegate.swift */,
+				A199A3A5241D6496000DBB34 /* Components */,
+				A199A383241C1396000DBB34 /* CollectedCardsViewController.swift */,
 				A199A385241C1396000DBB34 /* Main.storyboard */,
 				A199A388241C1399000DBB34 /* Assets.xcassets */,
 				A199A38A241C1399000DBB34 /* LaunchScreen.storyboard */,
 				A199A38D241C1399000DBB34 /* Info.plist */,
-				A199A383241C1396000DBB34 /* ViewController.swift */,
 			);
 			path = CardWallet;
 			sourceTree = "<group>";
@@ -94,6 +99,23 @@
 				A199A398241C1399000DBB34 /* Info.plist */,
 			);
 			path = CardWalletTests;
+			sourceTree = "<group>";
+		};
+		A199A3A5241D6496000DBB34 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A199A3A6241D64D5000DBB34 /* Coordinator */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A199A3A6241D64D5000DBB34 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A199A3A9241D668C000DBB34 /* CoordinatorInterface.swift */,
+				A199A3A7241D6647000DBB34 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A199A384241C1396000DBB34 /* ViewController.swift in Sources */,
+				A199A384241C1396000DBB34 /* CollectedCardsViewController.swift in Sources */,
+				A199A3A8241D6647000DBB34 /* MainCoordinator.swift in Sources */,
+				A199A3AA241D668C000DBB34 /* CoordinatorInterface.swift in Sources */,
 				A199A380241C1396000DBB34 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

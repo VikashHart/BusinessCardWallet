@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CollectedCardsViewController: UIViewController {
+
+    weak var coordinator: Coordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
